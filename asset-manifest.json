@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.js": "/goit-react-hw-01-components/static/js/main.deddb7f1.chunk.js",
-    "main.js.map": "/goit-react-hw-01-components/static/js/main.deddb7f1.chunk.js.map",
-    "runtime-main.js": "/goit-react-hw-01-components/static/js/runtime-main.496f57a3.js",
-    "runtime-main.js.map": "/goit-react-hw-01-components/static/js/runtime-main.496f57a3.js.map",
-    "index.html": "/goit-react-hw-01-components/index.html"
+    "main.css": "//Aleksander-Kovalenko.github.io/goit-react-hw-01-components/static/css/main.a617e044.chunk.css",
+    "main.js": "//Aleksander-Kovalenko.github.io/goit-react-hw-01-components/static/js/main.dafbafee.chunk.js",
+    "main.js.map": "//Aleksander-Kovalenko.github.io/goit-react-hw-01-components/static/js/main.dafbafee.chunk.js.map",
+    "runtime-main.js": "//Aleksander-Kovalenko.github.io/goit-react-hw-01-components/static/js/runtime-main.fb33196c.js",
+    "runtime-main.js.map": "//Aleksander-Kovalenko.github.io/goit-react-hw-01-components/static/js/runtime-main.fb33196c.js.map",
+    "static/js/2.daa75cb7.chunk.js": "//Aleksander-Kovalenko.github.io/goit-react-hw-01-components/static/js/2.daa75cb7.chunk.js",
+    "static/js/2.daa75cb7.chunk.js.map": "//Aleksander-Kovalenko.github.io/goit-react-hw-01-components/static/js/2.daa75cb7.chunk.js.map",
+    "static/js/3.4faad408.chunk.js": "//Aleksander-Kovalenko.github.io/goit-react-hw-01-components/static/js/3.4faad408.chunk.js",
+    "static/js/3.4faad408.chunk.js.map": "//Aleksander-Kovalenko.github.io/goit-react-hw-01-components/static/js/3.4faad408.chunk.js.map",
+    "index.html": "//Aleksander-Kovalenko.github.io/goit-react-hw-01-components/index.html",
+    "static/css/main.a617e044.chunk.css.map": "//Aleksander-Kovalenko.github.io/goit-react-hw-01-components/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.daa75cb7.chunk.js.LICENSE.txt": "//Aleksander-Kovalenko.github.io/goit-react-hw-01-components/static/js/2.daa75cb7.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "//Aleksander-Kovalenko.github.io/goit-react-hw-01-components/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.496f57a3.js",
-    "static/js/main.deddb7f1.chunk.js"
+    "static/js/runtime-main.fb33196c.js",
+    "static/js/2.daa75cb7.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.dafbafee.chunk.js"
   ]
 }
