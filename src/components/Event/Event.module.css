@@ -1,0 +1,43 @@
+.event {
+  position: relative;
+  border: 2px dashed black;
+  padding: 8px;
+}
+
+.title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.icon {
+  display: block;
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+  color: black;
+}
+
+.chip {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: black;
+  color: #ffffff;
+
+  padding: 5px;
+  border-radius: 4px;
+
+  text-transform: uppercase;
+}
+
+.x {
+  background-color: green;
+}
+
+.y {
+  background-color: blueviolet;
+}
+
+.z {
+  background-color: aqua;
+}
