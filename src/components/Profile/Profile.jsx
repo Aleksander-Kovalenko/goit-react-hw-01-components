@@ -1,4 +1,5 @@
 import css from './Profile.module.css';
+// import { InfoList } from 'components/InfoList/InfoList';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
@@ -11,6 +12,21 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
       </div>
 
       <ul className={css.stats}>
+        {/* <InfoList
+          itemClass={css.item}
+          title={css.label}
+          content={css.quantity}
+          itemTitle={Object.keys(stats)
+            .map(item => {
+              return item;
+            })
+            .join(' ')}
+          itemContent={Object.values(stats)
+            .map(item => {
+              return item;
+            })
+            .join(' ')}
+        /> */}
         <li className={css.item}>
           <span className={css.label}>Followers</span>
           <span className={css.quantity}>{stats.followers}</span>
