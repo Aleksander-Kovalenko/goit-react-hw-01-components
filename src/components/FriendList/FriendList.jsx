@@ -1,11 +1,13 @@
-import { Friend } from '../Friend/Friend';
+import { Friend } from 'components/Friend/Friend';
+
+import { ListFriends } from './FriendList.styled';
+
 export const FriendList = ({ events }) => {
   return (
-    <ul>
-      {events.map(item => {
-        console.log(item.id);
-        <Friend id={item.id} isOnLine={item.isOnLine} avatar={item.avatar} name={item.name} />;
-      })}
-    </ul>
+    <ListFriends>
+      {events.map(item => (
+        <Friend id={item.id} isOnline={item.isOnline} avatar={item.avatar} name={item.name} />
+      ))}
+    </ListFriends>
   );
 };
