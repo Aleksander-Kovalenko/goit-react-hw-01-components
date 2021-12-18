@@ -1,9 +1,10 @@
 import css from './Profile.module.css';
+import { Container } from './Profile.styled';
 // import { InfoList } from 'components/InfoList/InfoList';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
-    <div className={css.profile}>
+    <Container key={tag}>
       <div className={css.description}>
         <img src={avatar} alt={username} className={css.avatar} />
         <p className={css.name}>{username}</p>
@@ -12,21 +13,6 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
       </div>
 
       <ul className={css.stats}>
-        {/* <InfoList
-          itemClass={css.item}
-          title={css.label}
-          content={css.quantity}
-          itemTitle={Object.keys(stats)
-            .map(item => {
-              return item;
-            })
-            .join(' ')}
-          itemContent={Object.values(stats)
-            .map(item => {
-              return item;
-            })
-            .join(' ')}
-        /> */}
         <li className={css.item}>
           <span className={css.label}>Followers</span>
           <span className={css.quantity}>{stats.followers}</span>
@@ -40,6 +26,6 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
           <span className={css.quantity}>{stats.likes}</span>
         </li>
       </ul>
-    </div>
+    </Container>
   );
 };

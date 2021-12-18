@@ -1,7 +1,6 @@
 import styled from '@emotion/styled';
 
 const setBgColor = ({ isOnline }) => {
-  console.log(isOnline);
   switch (isOnline) {
     case true:
       return 'green';
@@ -13,12 +12,17 @@ const setBgColor = ({ isOnline }) => {
 };
 
 export const ItemFriend = styled.li`
+  padding: 5px;
   display: flex;
-  //   justify-content: center;
   align-items: center;
 
   &:not(:last-child) {
     margin-bottom: 15px;
+  }
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 `;
 
