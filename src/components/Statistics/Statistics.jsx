@@ -1,11 +1,13 @@
 import propTypes from 'prop-types';
 
+import { ItemHistory, Label } from './Statistics.styled';
+
 export const Statistics = ({ id, label, percentage }) => {
   return (
-    <li key={id}>
-      <span>{label}</span>
+    <ItemHistory key={id}>
+      <Label>{label}</Label>
       <span>{percentage}</span>
-    </li>
+    </ItemHistory>
   );
 };
 

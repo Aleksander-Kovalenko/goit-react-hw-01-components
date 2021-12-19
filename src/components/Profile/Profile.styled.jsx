@@ -6,3 +6,41 @@ export const Container = styled.div`
   margin: 50px auto 50px auto;
   text-align: center;
 `;
+
+export const Avatar = styled.img`
+  display: block;
+  padding-top: 10px;
+  width: 100%;
+  border-radius: 50% 50%;
+`;
+
+export const Label = styled.span`
+  color: grey;
+  font-size: 18px;
+`;
+
+export const UserName = styled.p`
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+`;
+
+export const StatsList = styled.ul`
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  list-style: none;
+`;
+
+export const StatsItem = styled.li`
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-bottom: none;
+  background-color: beige;
+`;
+
+export const Quantity = styled.span`
+  color: black;
+`;
