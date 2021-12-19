@@ -1,3 +1,5 @@
+import propTypes from 'prop-types';
+
 import { Profile } from '../Profile/Profile';
 
 export const ProfileList = ({ events }) => {
@@ -11,4 +13,8 @@ export const ProfileList = ({ events }) => {
       stats={item.stats}
     ></Profile>
   ));
+};
+
+Profile.propTypes = {
+  events: propTypes.array,
 };

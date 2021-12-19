@@ -1,5 +1,6 @@
-import { Friend } from 'components/Friend/Friend';
+import propTypes from 'prop-types';
 
+import { Friend } from 'components/Friend/Friend';
 import { ListFriends } from './FriendList.styled';
 
 export const FriendList = ({ events }) => {
@@ -10,4 +11,8 @@ export const FriendList = ({ events }) => {
       ))}
     </ListFriends>
   );
+};
+
+FriendList.propTypes = {
+  events: propTypes.array,
 };

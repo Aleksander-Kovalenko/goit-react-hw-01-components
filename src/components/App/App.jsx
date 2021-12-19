@@ -15,7 +15,7 @@ export const App = () => {
       <SectionTitle text="Task-1" />
       <ProfileList events={user} />
       <SectionTitle text="Task-2" />
-      <StatisticsList data={data} title="Upload stats" /> {/*  Добавить ключи */}
+      <StatisticsList data={data} title="Upload stats" />
       <SectionTitle text="Task-3" />
       <FriendList events={friendlyList} />
       <SectionTitle text="Task-4" />

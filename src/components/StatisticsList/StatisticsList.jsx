@@ -1,3 +1,4 @@
+import propTypes from 'prop-types';
 import { Statistics } from 'components/Statistics/Statistics';
 
 export const StatisticsList = ({ title, data }) => {
@@ -12,4 +13,9 @@ export const StatisticsList = ({ title, data }) => {
       </ul>
     </section>
   );
+};
+
+StatisticsList.propTypes = {
+  title: propTypes.string,
+  data: propTypes.array,
 };

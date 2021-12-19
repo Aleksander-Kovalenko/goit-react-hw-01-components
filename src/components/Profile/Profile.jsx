@@ -1,3 +1,5 @@
+import propTypes from 'prop-types';
+
 import css from './Profile.module.css';
 import { Container } from './Profile.styled';
 // import { InfoList } from 'components/InfoList/InfoList';
@@ -28,4 +30,12 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
       </ul>
     </Container>
   );
+};
+
+Profile.propTypes = {
+  username: propTypes.string,
+  tag: propTypes.string,
+  location: propTypes.string,
+  avatar: propTypes.string,
+  stats: propTypes.string,
 };
